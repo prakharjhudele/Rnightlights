@@ -4,14 +4,21 @@
 \alias{fnAggRadGdal}
 \title{Calculate zonal statistics using GDAL}
 \usage{
-fnAggRadGdal(ctryCode, admLevel, ctryPoly, nlType,
+fnAggRadGdal(
+  ctryCode,
+  admLevel,
+  ctryPoly,
+  nlType,
   configName = pkgOptions(paste0("configName_", nlType)),
   multiTileStrategy = pkgOptions("multiTileStrategy"),
   multiTileMergeFun = pkgOptions("multiTileMergeFun"),
-  removeGasFlares = pkgOptions("removeGasFlares"), nlPeriod,
+  removeGasFlares = pkgOptions("removeGasFlares"),
+  nlPeriod,
   nlStats = pkgOptions("nlStats"),
   gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL)
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL
+)
 }
 \arguments{
 \item{ctryCode}{character string the ISO3 country code to be processed}

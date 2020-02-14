@@ -4,9 +4,13 @@
 \alias{getCtryStructAdmLevelNames}
 \title{Get the list of admin level names from a ctryStruct file}
 \usage{
-getCtryStructAdmLevelNames(ctryCode = NULL, lowestAdmLevel,
+getCtryStructAdmLevelNames(
+  ctryCode = NULL,
+  lowestAdmLevel,
   gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL)
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL
+)
 }
 \arguments{
 \item{ctryCode}{\code{character} The ctryCode of the country of interest}

@@ -4,9 +4,12 @@
 \alias{getCtryPolyUrl}
 \title{Get the GADM url from which to download country polygons}
 \usage{
-getCtryPolyUrl(ctryCode = NULL,
+getCtryPolyUrl(
+  ctryCode = NULL,
   gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL)
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL
+)
 }
 \arguments{
 \item{ctryCode}{character string The ctryCode of interest}

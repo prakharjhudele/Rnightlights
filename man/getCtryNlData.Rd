@@ -4,17 +4,27 @@
 \alias{getCtryNlData}
 \title{Returns nightlight statistics for the given ctryCode and nlType in the given nPeriods}
 \usage{
-getCtryNlData(ctryCode = NULL, admLevel, nlTypes, nlPeriods,
-  nlStats = pkgOptions("nlStats"), ignoreMissing = FALSE,
+getCtryNlData(
+  ctryCode = NULL,
+  admLevel,
+  nlTypes,
+  nlPeriods,
+  nlStats = pkgOptions("nlStats"),
+  ignoreMissing = FALSE,
   gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL,
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL,
   downloadMethod = pkgOptions("downloadMethod"),
   cropMaskMethod = pkgOptions("cropMaskMethod"),
-  extractMethod = pkgOptions("extractMethod"), configNames,
+  extractMethod = pkgOptions("extractMethod"),
+  configNames,
   multiTileStrategy = pkgOptions("multiTileStrategy"),
   multiTileMergeFun = pkgOptions("multiTileMergeFun"),
   removeGasFlares = pkgOptions("removeGasFlares"),
-  useSavedStats = FALSE, source = "local", ...)
+  useSavedStats = FALSE,
+  source = "local",
+  ...
+)
 }
 \arguments{
 \item{ctryCode}{the ISO3 code of the country. Only 1 country can be 

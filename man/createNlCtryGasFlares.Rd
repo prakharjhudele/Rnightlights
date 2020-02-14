@@ -4,8 +4,12 @@
 \alias{createNlCtryGasFlares}
 \title{Checks if a country has gasflares}
 \usage{
-createNlCtryGasFlares(ctryCode, gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL)
+createNlCtryGasFlares(
+  ctryCode,
+  gadmVersion = pkgOptions("gadmVersion"),
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL
+)
 }
 \arguments{
 \item{ctryCode}{\code{character} The ctryCode of the country of interest}

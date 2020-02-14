@@ -4,13 +4,20 @@
 \alias{deleteNlDataCol}
 \title{Delete an aggregate nightlight data column in a country nightlights dataframe}
 \usage{
-deleteNlDataCol(ctryCode = NULL, admLevel, nlType,
+deleteNlDataCol(
+  ctryCode = NULL,
+  admLevel,
+  nlType,
   configName = pkgOptions(paste0("configName_", nlType)),
   multiTileStrategy = pkgOptions("multiTileStrategy"),
   multiTileMergeFun = pkgOptions("multiTileMergeFun"),
-  removeGasFlares = pkgOptions("removeGasFlares"), nlPeriod, nlStat,
+  removeGasFlares = pkgOptions("removeGasFlares"),
+  nlPeriod,
+  nlStat,
   gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL)
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL
+)
 }
 \arguments{
 \item{ctryCode}{country with the  data column to remove}

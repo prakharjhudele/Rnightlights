@@ -4,9 +4,14 @@
 \alias{saveCtryNlData}
 \title{Save a data frame of a country's data to the appropriate location}
 \usage{
-saveCtryNlData(ctryNlDataDF, ctryCode = NULL, admLevel,
+saveCtryNlData(
+  ctryNlDataDF,
+  ctryCode = NULL,
+  admLevel,
   gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL)
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL
+)
 }
 \arguments{
 \item{ctryNlDataDF}{dataframe with the country data to save}

@@ -4,16 +4,23 @@
 \alias{processNlData}
 \title{Downloads nightlight tiles and country polygons and calls the function to process them}
 \usage{
-processNlData(ctryCodes, admLevels, nlTypes, configNames,
+processNlData(
+  ctryCodes,
+  admLevels,
+  nlTypes,
+  configNames,
   multiTileStrategy = pkgOptions("multiTileStrategy"),
   multiTileMergeFun = pkgOptions("multiTileMergeFun"),
-  removeGasFlares = pkgOptions("removeGasFlares"), nlPeriods,
-  nlStats = pkgOptions("nlStats"), custPolyPath = NULL,
+  removeGasFlares = pkgOptions("removeGasFlares"),
+  nlPeriods,
+  nlStats = pkgOptions("nlStats"),
+  custPolyPath = NULL,
   gadmVersion = pkgOptions("gadmVersion"),
   gadmPolyType = pkgOptions("gadmPolyType"),
   downloadMethod = pkgOptions("downloadMethod"),
   cropMaskMethod = pkgOptions("cropMaskMethod"),
-  extractMethod = pkgOptions("extractMethod"))
+  extractMethod = pkgOptions("extractMethod")
+)
 }
 \arguments{
 \item{ctryCodes}{the list of countries to be processed}
@@ -63,7 +70,7 @@ Downloads nightlight tiles and country polygons in preparation for the appropria
 processNlData then calls processNlCountry with the nlType supplied as a parameter. The
     processing is essentially the same for all nlTypes.
 
-This is the main entry-point to the package and the main user-facing function. However, it 
+    This is the main entry-point to the package and the main user-facing function. However, it 
     works in batch mode and caches all data without returning any data to the user. However, it 
     will return TRUE/FALSE depending on whether it completed successfully. Since it saves state
     regularly it can be run multiply in case of failure until it finally returns TRUE. This is where 

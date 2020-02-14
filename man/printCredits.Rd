@@ -4,8 +4,15 @@
 \alias{printCredits}
 \title{Format credits to print to the console}
 \usage{
-printCredits(credits, newLineChar = "\\n", surroundChar = "*",
-  horzPadding = 1, vertPadding = 1, horzWidth = 3, vertWidth = 2)
+printCredits(
+  credits,
+  newLineChar = "\\n",
+  surroundChar = "*",
+  horzPadding = 1,
+  vertPadding = 1,
+  horzWidth = 3,
+  vertWidth = 2
+)
 }
 \arguments{
 \item{credits}{character a single length character vector with newlineChar

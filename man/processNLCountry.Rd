@@ -4,17 +4,23 @@
 \alias{processNLCountry}
 \title{Processes nightlights for an individual country in a particular nlPeriod}
 \usage{
-processNLCountry(ctryCode, admLevel, nlType,
+processNLCountry(
+  ctryCode,
+  admLevel,
+  nlType,
   configName = pkgOptions(paste0("configName_", nlType)),
   multiTileStrategy = pkgOptions("multiTileStrategy"),
   multiTileMergeFun = pkgOptions("multiTileMergeFun"),
-  removeGasFlares = pkgOptions("removeGasFlares"), nlPeriod,
+  removeGasFlares = pkgOptions("removeGasFlares"),
+  nlPeriod,
   nlStats = pkgOptions("nlStats"),
   downloadMethod = pkgOptions("downloadMethod"),
   cropMaskMethod = pkgOptions("cropMaskMethod"),
   extractMethod = pkgOptions("extractMethod"),
   gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL)
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL
+)
 }
 \arguments{
 \item{ctryCode}{\code{character} The ctryCode of interest}
@@ -78,7 +84,7 @@ Processing consists of:
            written to the data file.
     }
 
-NOTE: \code{processNLCountry()} assumes that all inputs are available 
+    NOTE: \code{processNLCountry()} assumes that all inputs are available 
     and will not attempt to download them. It should ideally be called 
     from the function \code{processNlData()} which does all the 
     preparation for processing. \code{processNlData()} which can process 

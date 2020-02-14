@@ -4,10 +4,15 @@
 \alias{searchAdmLevelName}
 \title{Search for the admLevelName}
 \usage{
-searchAdmLevelName(ctryCodes = NULL, admLevelNames, dnldPoly = TRUE,
+searchAdmLevelName(
+  ctryCodes = NULL,
+  admLevelNames,
+  dnldPoly = TRUE,
   downloadMethod = pkgOptions("downloadMethod"),
   gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL)
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL
+)
 }
 \arguments{
 \item{ctryCodes}{\code{character} The ctryCodes of the country of interest}

@@ -4,8 +4,10 @@
 \alias{mapCtryPolyToTilesVIIRS}
 \title{Create a mapping of all countries and the tiles they intersect}
 \usage{
-mapCtryPolyToTilesVIIRS(ctryCodes = "all",
-  omitCountries = pkgOptions("omitCountries"))
+mapCtryPolyToTilesVIIRS(
+  ctryCodes = "all",
+  omitCountries = pkgOptions("omitCountries")
+)
 }
 \arguments{
 \item{ctryCodes}{A character vector or list of countries to map. Default 

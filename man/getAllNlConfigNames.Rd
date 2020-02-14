@@ -4,8 +4,12 @@
 \alias{getAllNlConfigNames}
 \title{Generate a list of all possible configNames for a given nlType}
 \usage{
-getAllNlConfigNames(nlTypes = NULL, configNames = NULL,
-  description = NULL, pretty = FALSE)
+getAllNlConfigNames(
+  nlTypes = NULL,
+  configNames = NULL,
+  description = NULL,
+  pretty = FALSE
+)
 }
 \arguments{
 \item{nlTypes}{if present show only configNames matching the nlTypes}

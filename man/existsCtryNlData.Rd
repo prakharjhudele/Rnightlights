@@ -4,12 +4,20 @@
 \alias{existsCtryNlData}
 \title{Check if VIIRS nightlight stats exist locally}
 \usage{
-existsCtryNlData(ctryCode = NULL, admLevel, nlTypes, configNames,
+existsCtryNlData(
+  ctryCode = NULL,
+  admLevel,
+  nlTypes,
+  configNames,
   multiTileStrategy = pkgOptions("multiTileStrategy"),
   multiTileMergeFun = pkgOptions("multiTileMergeFun"),
-  removeGasFlares = pkgOptions("removeGasFlares"), nlPeriods, nlStats,
+  removeGasFlares = pkgOptions("removeGasFlares"),
+  nlPeriods,
+  nlStats,
   gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL)
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL
+)
 }
 \arguments{
 \item{ctryCode}{character The ISO3 code of the country}

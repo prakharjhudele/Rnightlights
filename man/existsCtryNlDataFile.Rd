@@ -4,9 +4,13 @@
 \alias{existsCtryNlDataFile}
 \title{Check if a country admin level data file exists}
 \usage{
-existsCtryNlDataFile(ctryCode = NULL, admLevel,
+existsCtryNlDataFile(
+  ctryCode = NULL,
+  admLevel,
   gadmVersion = pkgOptions("gadmVersion"),
-  gadmPolyType = pkgOptions("gadmPolyType"), custPolyPath = NULL)
+  gadmPolyType = pkgOptions("gadmPolyType"),
+  custPolyPath = NULL
+)
 }
 \arguments{
 \item{ctryCode}{the ISO3 country code}

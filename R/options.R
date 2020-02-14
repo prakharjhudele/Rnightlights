@@ -95,13 +95,13 @@ RNIGHTLIGHTSOPTIONS <- settings::options_manager(
   ntLtsIndexUrlVIIRS.D = "https://ngdc.noaa.gov/eog/viirs/download_ut_mos_tile_iframe.html",
   
   #updated: 20190731. Data at old site stopped 15th July, 2019
-  ntLtsIndexUrlVIIRS.M_OLD = "https://www.ngdc.noaa.gov/eog/viirs/download_dnb_composites_iframe.html",
+  ntLtsIndexUrlVIIRS.M_OLD = "https://www.ngdc.noaa.gov/eog/viirs/download_dnb_composites.html",
   
-  ntLtsIndexUrlVIIRS.Y_OLD = "https://www.ngdc.noaa.gov/eog/viirs/download_dnb_composites_iframe.html",
+  ntLtsIndexUrlVIIRS.Y_OLD = "https://www.ngdc.noaa.gov/eog/viirs/download_dnb_composites.html",
   
-  ntLtsIndexUrlVIIRS.M = "https://eogdata.mines.edu/download_dnb_composites_iframe.html",
+  ntLtsIndexUrlVIIRS.M = "https://eogdata.mines.edu/download_dnb_composites.html",
   
-  ntLtsIndexUrlVIIRS.Y = "https://eogdata.mines.edu/download_dnb_composites_iframe.html",
+  ntLtsIndexUrlVIIRS.Y = "https://eogdata.mines.edu/download_dnb_composites.html",
 
   #the number of cores to use for parallel processing
   numThreads = 2,
